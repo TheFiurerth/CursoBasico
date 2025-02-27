@@ -1,27 +1,31 @@
-
 package com.leonel.cursobasico;
 
+import android.view.View;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
-import com.leonel.cursobasico.databinding.ActivityMainBinding;
+
+// Importando clase Perro del paquete animal
+import com.leonel.cursobasico.animales.Perro;
 
 public class MainActivity extends AppCompatActivity {
-    private ActivityMainBinding binding;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
 
-        // Inflate and get instance of binding
-        binding = ActivityMainBinding.inflate(getLayoutInflater());
+        setContentView(new View(this));
 
-        // set content view to binding's root
-        setContentView(binding.getRoot());
-    }
-    
-    @Override
-    protected void onDestroy() {
-        super.onDestroy();
-        this.binding = null;
+        // Instanciando un objeto
+        // de la clase Perro
+        Perro gufi = new Perro();
+
+        // Accediendo al atributo edad de
+        // clase Perro con el objeto gufi
+        gufi.edad = 5;
+
+        // Accediendo al metodo dormir de
+        // clase Perro con el objeto gufi
+        gufi.dormir();
     }
 }
