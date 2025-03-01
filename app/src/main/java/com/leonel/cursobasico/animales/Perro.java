@@ -15,21 +15,20 @@ public class Perro {
 
     boolean vivo = true; // Por defecto
 
+    // Constructor de la clase Perro
+    public Perro() {}
+
     // Metodos de la clase Perro
 
-    public void dormir() { //Publico
-        
+    public void dormir() { // Publico
     }
 
-    protected void comer() { //Protegido
-        
+    protected void comer() { // Protegido
     }
 
-    private void caminar() { //Privado
-        
+    private void caminar() { // Privado
     }
 
-    void ladrar() { //Por defecto
-        
+    void ladrar() { // Por defecto
     }
 }

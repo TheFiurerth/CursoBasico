@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
 // Importando clase Perro del paquete animal
+import com.leonel.cursobasico.animales.Gato;
 import com.leonel.cursobasico.animales.Perro;
 
 public class MainActivity extends AppCompatActivity {
@@ -27,5 +28,14 @@ public class MainActivity extends AppCompatActivity {
         // Accediendo al metodo dormir de
         // clase Perro con el objeto gufi
         gufi.dormir();
+
+// Instanciando objeto de la clase Gato
+        Gato garfio = new Gato();
+
+        garfio.sexo = 'M';
+
+        Gato.edad = 34;
+
+        garfio.edad = 34;
     }
 }
