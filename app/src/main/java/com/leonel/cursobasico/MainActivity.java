@@ -5,8 +5,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
 // Importando clase Perro del paquete animal
-import com.leonel.cursobasico.animales.Gato;
-import com.leonel.cursobasico.animales.Perro;
+import com.leonel.cursobasico.electrodomesticos.Lapto;
+import com.leonel.cursobasico.electrodomesticos.PSP;
+import com.leonel.cursobasico.electrodomesticos.Tablet;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -17,25 +18,25 @@ public class MainActivity extends AppCompatActivity {
 
         setContentView(new View(this));
 
-        // Instanciando un objeto
-        // de la clase Perro
-        Perro gufi = new Perro();
+        Lapto vid = new Lapto();
 
-        // Accediendo al atributo edad de
-        // clase Perro con el objeto gufi
-        gufi.edad = 5;
+        vid.cargar();
+        vid.encender(23.34f);
+        vid.potenciaMaxiama(true);
+        vid.numeroNucleos = 8;
 
-        // Accediendo al metodo dormir de
-        // clase Perro con el objeto gufi
-        gufi.dormir();
+        Tablet canaima = new Tablet();
 
-// Instanciando objeto de la clase Gato
-        Gato garfio = new Gato();
+        canaima.inivir();
+        canaima.encender(2.3f);
+        canaima.potenciaMaxiama(true);
+        canaima.numeroNucleos = 4;
 
-        garfio.sexo = 'M';
+        PSP pspVita = new PSP();
 
-        Gato.edad = 34;
-
-        garfio.edad = 34;
+        pspVita.configurar();
+        pspVita.encender(4.4f);
+        pspVita.potenciaMaxiama(true);
+        pspVita.numeroNucleos = 8;
     }
 }
