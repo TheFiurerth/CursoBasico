@@ -4,10 +4,9 @@ import android.view.View;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
-// Importando clase Perro del paquete animal
-import com.leonel.cursobasico.electrodomesticos.Lapto;
-import com.leonel.cursobasico.electrodomesticos.PSP;
-import com.leonel.cursobasico.electrodomesticos.Tablet;
+import com.leonel.electrodomesticos.Lapto;
+import com.leonel.electrodomesticos.PSP;
+import com.leonel.electrodomesticos.Tablet;
 
 public class MainActivity extends AppCompatActivity {
 

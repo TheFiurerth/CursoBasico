@@ -1,4 +1,4 @@
-package com.leonel.cursobasico.plantas;
+package com.leonel.plantas;
 
 public class Mani {
 

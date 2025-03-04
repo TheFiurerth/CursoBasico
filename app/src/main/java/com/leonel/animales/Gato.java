@@ -1,6 +1,6 @@
-package com.leonel.cursobasico.animales;
+package com.leonel.animales;
 
-import com.leonel.cursobasico.plantas.Girasol;
+import com.leonel.plantas.Girasol;
 
 public class Gato {
     // Modificador statatic

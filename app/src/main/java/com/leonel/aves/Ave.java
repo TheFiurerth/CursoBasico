@@ -1,4 +1,4 @@
-package com.leonel.cursobasico.aves;
+package com.leonel.aves;
 
 public class Ave {
 

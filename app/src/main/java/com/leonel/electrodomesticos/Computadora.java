@@ -1,4 +1,4 @@
-package com.leonel.cursobasico.electrodomesticos;
+package com.leonel.electrodomesticos;
 
 public class Computadora {
 

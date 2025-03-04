@@ -1,4 +1,4 @@
-package com.leonel.cursobasico.vehiculos;
+package com.leonel.vehiculos;
 
 public class Moto {
 

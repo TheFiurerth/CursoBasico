@@ -1,6 +1,6 @@
 // Paquete o directorio donde se encuentra
 // la clase Perro
-package com.leonel.cursobasico.animales;
+package com.leonel.animales;
 
 // Clase publica Perro
 public class Perro {
