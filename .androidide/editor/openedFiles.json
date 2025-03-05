@@ -1,20 +1,35 @@
 {
   "allFiles": [
     {
-      "file": "/storage/emulated/0/AndroidIDEProjects/CursoBasico/app/src/main/java/com/leonel/cursobasico/MainActivity.java",
+      "file": "/storage/emulated/0/AndroidIDEProjects/CursoBasico/app/src/main/java/com/leonel/naves/Avion.java",
       "selection": {
         "end": {
           "column": 0,
-          "index": 0,
-          "line": 0
+          "index": 63,
+          "line": 3
         },
         "start": {
           "column": 0,
-          "index": 0,
-          "line": 0
+          "index": 63,
+          "line": 3
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/CursoBasico/app/src/main/java/com/leonel/naves/Nave.java",
+      "selection": {
+        "end": {
+          "column": 49,
+          "index": 316,
+          "line": 16
+        },
+        "start": {
+          "column": 49,
+          "index": 316,
+          "line": 16
         }
       }
     }
   ],
-  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/CursoBasico/app/src/main/java/com/leonel/cursobasico/MainActivity.java"
+  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/CursoBasico/app/src/main/java/com/leonel/naves/Avion.java"
 }
